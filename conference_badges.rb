@@ -1,1 +1,15 @@
 # Write your code here.
+def badge_maker(name)
+  return "Hello, my name is #{name}."
+end
+
+def batch_badge_creator(attendees)
+  arr1 = []
+  attendees.each do |x|
+    arr1.push("Hello, my name is #{x}.")
+  end
+  arr1
+end
+
+def assign_rooms(attendees)
+end
